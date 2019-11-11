@@ -1,0 +1,44 @@
+@media(min-width: 468px){
+    .container-01 {
+        display: flex;
+    }
+
+    .container-02 {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.container-01 div, .container-02 div, .container-03 div {
+    border: 1px solid #cccccc;
+    padding: 1px;
+}
+
+.container-03 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box-01 {
+    flex: 2;
+    order: 2;
+}
+
+.box-02 {
+    flex: 1;
+    order: 1;
+}
+
+.box-03 {
+    flex: 1;
+    order: 3;
+}
+
+.container-02-box {
+    flex-basis: 27%;
+}
+
+.container-03-box {
+    flex-basis: 12%;
+}
